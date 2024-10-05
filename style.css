@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: wheat;
+    background-color: #050404;
+    border-radius: 10px;
+}
+h3{
+    color: brown;
+}
+
+.movie-posters img {
+    width: 250px;
+    height: 300px;
+    align-items: center;
+    display: inline;
+    padding: 20px 80px;
+}
+.character{
+    display:inline-block;
+}
+.ntr{
+    border-radius: 10px;
+    border: #555;
+    height: 300px;
+    align-items: center;
+    width: 250px;
+
+}
+.allu{
+    border-radius: 10px;
+    border: black;  
+    width:250px;
+    height: 300px;
+    align-items: center;
+}
+
+#quiz {
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.options button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background-color: #555;
+}

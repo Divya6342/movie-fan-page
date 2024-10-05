@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Movie Buff Central</h1>
+        <p>Welcome to the ultimate fan hub for all things [Movie Franchise]!</p>
+    </header>
+
+    <!-- Home Page Section with Movie Posters -->
+    <section id="home">
+        <h2>Featured Movies</h2>
+        <div class="movie-posters">
+            <img src="devara.jpeg" alt="Movie 1 Poster">
+            <img src="puspa.jpeg" alt="Movie 2 Poster">
+            <img src="black panther.jpeg" alt="Movie 3 Poster">
+        </div>
+    </section>
+
+    <!-- Character Bios Section -->
+    <section id="characters">
+        <h2>Character Bios</h2>
+        <div class="character">
+            <img src="ntr.jpeg" alt="Character 1" class="ntr">
+            <h3>DEVARA</h3>
+            <p>Description:Devara is a chieftain of one of the villages and part of the group which smuggled for Muruga from the merchant ships along with Bhaira, who is the chief of another such village in the Ratnagiri mountains.</p>
+            <p>Interesting Fact: Devara: Part 1 starring Jr NTR is reportedly based on a horrific incident in Karamchedu, Bapatla district of Andhra Pradesh in 1985</p>
+        </div>
+
+        <div class="character">
+            <img src="pushparaj.jpeg" alt="Character 2" class="allu">
+            <h3>PUSHPA</h3>
+            <p>Description: Pushpa Raj is a self respecting young man who takes pride in his work. He works at a mill, but leaves it when his owner doesn't like his attitude outside of work. Pushpa goes for Red sanders cutting in the forest. Pushpa lives in a village with his mother Parvatamma, and is the illegitimate son of a local rich man</p>
+            <p>Interesting Fact: The clash is on as Pushpa and Bhanwar Singh continue their rivalry in this epic conclusion to the two-parted action drama.</p>
+        </div>
+    </section>
+
+    <!-- Embedded Movie Trailers -->
+    <section id="trailers">
+        <h2>Watch Trailers</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="trailers">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Trivia Quiz -->
+    <section id="quiz">
+        <h2>Trivia Quiz</h2>
+        <div id="question">Who directed Pushpa?</div>
+        <div class="options">
+            <button onclick="checkAnswer('A')""> Sukumar </button>
+            <button onclick="checkAnswer('B')">Rajamouli</button>
+            <button onclick="checkAnswer('C')"> Trivikram</button>
+            <button onclick="checkAnswer('D')"> Sreenu Vitla</button>
+        </div>
+        <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
